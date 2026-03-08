@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTutoriales.Pages.Pagina5"
+             Title="Diseno Pila Con FlexLayout" 
+             IconImageSource="contacto.png">
+
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+        <Label Text="Diseno Flotante en Accion"
+               FontSize="18"/>
+        <Image Source="logo_pv.png"
+               HeightRequest="300"/>
+        <Button Text="No Oprimas el Boton"/>
+        <Label Text="Etiqueta de Prueba"/>
+
+    </FlexLayout>
+</ContentPage>

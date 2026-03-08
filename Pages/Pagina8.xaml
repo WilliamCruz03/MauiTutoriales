@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TutorialesMaui.Pagina1"
+             Title="Diseño Cuadricula" IconImageSource="contacto.png">
+
+
+    <Grid RowSpacing="6"
+          ColumnSpacing="6">
+        <!--Todo esto de rowdefinition y column definitions se puede resumir de la siguiente manera-->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <!--<Grid RowDefinitions="1*, Auto, 25, 14, 20"-->
+            <RowDefinition />
+            <!--ColumnDefinitions="*, 2*, Auto, 300></Grid>"-->
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <BoxView Color="Green"/>
+        <Label Text="Fila 0, Columna 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <BoxView Grid.Column="1"
+                 Color="Blue"/>
+        <Label Grid.Column="1"
+               Text="Fila 0, Columna 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <BoxView Grid.Row="1"
+                 Color="Teal"/>
+        <Label Grid.Row="1"
+               Text="Fila 1, Columna 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="Purple"/>
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="Fila 1, Columna 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <BoxView Grid.Row="2"
+                 Grid.ColumnSpan="2"
+                 Color="Red"/>
+        <Label Grid.Row="2"
+               Grid.ColumnSpan="2"
+               Text="Fila 2, Columna 0 y 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+    </Grid>
+</ContentPage>

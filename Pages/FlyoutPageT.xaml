@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:MauiTutoriales.Pages"
              Title="FlyoutPageT">
     <FlyoutPage.Flyout>
-        <local:FlyoutMenuPage x:Name="flytoutPage"/>
+        <local:FlyoutMenuPage x:Name="flyoutPage"/>
     </FlyoutPage.Flyout>
     <FlyoutPage.Detail>
         <NavigationPage>

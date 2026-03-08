@@ -1,4 +1,6 @@
-﻿namespace MauiTutoriales
+﻿using MauiTutoriales.Pages;
+
+namespace MauiTutoriales
 {
     public partial class App : Application
     {
@@ -6,7 +8,9 @@
         {
             InitializeComponent();
 
-            MainPage = new FlyoutPage();
+            /*MainPage = new FlyoutPageT();*/ /* Paginas Menu */
+
+            MainPage = new TabbedPageT();
         }
         
     }

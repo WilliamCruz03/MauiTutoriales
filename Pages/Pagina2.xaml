@@ -2,11 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiTutoriales.Pages.Pagina2"
-             Title="Pagina2">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI! Estas en la pagina 1"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Pagina2"
+             IconImageSource="listadetareas.png">
+
+    <AbsoluteLayout>
+        <BoxView Color="Blue"
+             AbsoluteLayout.LayoutBounds="0.5,0,100,25"
+             AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="Green"
+             AbsoluteLayout.LayoutBounds="0,0.5,25,100"
+             AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="Red"
+             AbsoluteLayout.LayoutBounds="1,0.5,25,100"
+             AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="Black"
+             AbsoluteLayout.LayoutBounds="0.5,1,100,25"
+             AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Texto Centrado"
+           AbsoluteLayout.LayoutBounds="0.5,0.5,110,25"
+           AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
 </ContentPage>

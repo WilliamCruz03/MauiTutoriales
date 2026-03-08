@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTutoriales.Pages.Pagina4"
+             Title="Disenos de Pila Anidados" 
+             IconImageSource="tabbed3_24px.png">
+
+    <StackLayout Margin="20">
+        
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Red"
+                         WidthRequest="40" />
+                <Label Text="Rojo"
+                       FontSize="18"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Yellow"
+                         WidthRequest="40" />
+                <Label Text="Amarillo"
+                       FontSize="18"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Blue"
+                         WidthRequest="40" />
+                <Label Text="Azul"
+                       FontSize="18"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Frame>
+        
+    </StackLayout>
+</ContentPage>

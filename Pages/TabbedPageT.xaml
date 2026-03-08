@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiTutoriales.Pages"
+             xmlns:local1="clr-namespace:MauiTutoriales"
+             x:Class="MauiTutoriales.Pages.TabbedPageT"
+             Title="TabbedPageT">
+
+    <local1:MainPage/>
+    <local:Pagina1/>    
+    <local:Pagina2/>
+    <local:Pagina3/>
+    <local:Pagina4/>
+    <local:Pagina5/>
+    <local:Pagina6/>
+    <local:Pagina7/>
+    <local:Pagina8/>
+    <local:Pagina9/>
+    <local:Pagina10/>
+
+</TabbedPage>
