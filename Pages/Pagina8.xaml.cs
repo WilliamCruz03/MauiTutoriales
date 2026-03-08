@@ -7,3 +7,4 @@ public partial class Pagina8 : ContentPage
         InitializeComponent();
     }
 }
+//esta pagina no se sube a github no se porque
