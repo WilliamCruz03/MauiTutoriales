@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TutorialesMaui.Pagina2"
+             x:Class="MauiTutoriales.Pages.Pagina9"
              Title="Pagina 2" IconImageSource="tabbed3_24px.png">
 
-	<Grid>
+    <Grid>
 
-		<Grid.RowDefinitions>
-			<RowDefinition />
-			<RowDefinition />
-			<RowDefinition />
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition />
-			<ColumnDefinition />
-			<ColumnDefinition />
-		</Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
 
-		<BoxView Color="Yellow"/>
-		<Label Text="Arriba a la Izquierda"
+        <BoxView Color="Yellow"/>
+        <Label Text="Arriba a la Izquierda"
                HorizontalOptions="Start"
                VerticalOptions="Start"/>
-		<BoxView Grid.Column="1"
+        <BoxView Grid.Column="1"
                  Color="Blue"/>
-		<Label Grid.Column="1"
+        <Label Grid.Column="1"
                Text="Arriba al Centro"
                HorizontalOptions="Center"
                VerticalOptions="Start"/>
-		<BoxView Grid.Column="2"
+        <BoxView Grid.Column="2"
                  Color="Red"/>
-		<Label Grid.Column="2"
+        <Label Grid.Column="2"
                Text="Arriba a la Derecha"
                HorizontalOptions="End"
                VerticalOptions="Start"/>
-		<BoxView Grid.Row="1"
+        <BoxView Grid.Row="1"
                  Color="Purple"/>
-		<Label Grid.Row="1"
+        <Label Grid.Row="1"
                Text="Medio a la Izquierda"
                HorizontalOptions="Start"
                VerticalOptions="Center"/>
-		<BoxView Grid.Row="1"
+        <BoxView Grid.Row="1"
                  Grid.Column="1"
                  Color="Orange"/>
-		<Label Grid.Row="1"
+        <Label Grid.Row="1"
                Grid.Column="1"
                Text="Medio en el centro"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
-		<BoxView Grid.Row="1"
+        <BoxView Grid.Row="1"
                  Grid.Column="2"
                  Color="AliceBlue"/>
-		<Label Grid.Row="1"
+        <Label Grid.Row="1"
                Grid.Column="2"
                Text="Medio a la Derecha"
                HorizontalOptions="End"
                VerticalOptions="Center"/>
-		<BoxView Grid.Row="2"
+        <BoxView Grid.Row="2"                 
                  Color="Brown"/>
-		<Label Grid.Row="2"
+        <Label Grid.Row="2" 
                Text="Abajo a la Izquierda"
                HorizontalOptions="Start"
                VerticalOptions="End"/>
-		<BoxView Grid.Row="2"
+        <BoxView Grid.Row="2"
                  Grid.Column="1"
                  Color="Pink"/>
-		<Label Grid.Row="2"
-               Grid.Column="1"
+        <Label Grid.Row="2"
+               Grid.Column="1" 
                Text="Abajo al Centro"
                HorizontalOptions="Center"
                VerticalOptions="End"/>
-		<BoxView Grid.Row="2"
+        <BoxView Grid.Row="2"
                  Grid.Column="2"
                  Color="Beige"/>
-		<Label Grid.Row="2"
+        <Label Grid.Row="2"
                Grid.Column="2"
                Text="Abajo a la Derecha"
                HorizontalOptions="End"
                VerticalOptions="End"/>
-	</Grid>
+    </Grid>
 
 </ContentPage>

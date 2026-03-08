@@ -57,45 +57,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\FlyoutMenuPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\FlyoutPageT.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina10.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina2.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina3.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina4.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina5.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina6.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina7.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina8.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Pagina9.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\TabbedPageT.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<MauiXaml Include="Pages\FlyoutMenuPage.xaml" />
+		<MauiXaml Include="Pages\FlyoutPageT.xaml" />
+		<MauiXaml Include="Pages\Pagina1.xaml" />
+		<MauiXaml Include="Pages\Pagina2.xaml" />
+		<MauiXaml Include="Pages\Pagina3.xaml" />
+		<MauiXaml Include="Pages\Pagina4.xaml" />
+		<MauiXaml Include="Pages\Pagina5.xaml" />
+		<MauiXaml Include="Pages\Pagina6.xaml" />
+		<MauiXaml Include="Pages\Pagina7.xaml" />
+		<MauiXaml Include="Pages\Pagina8.xaml" />
+		<MauiXaml Include="Pages\Pagina9.xaml" />
+		<MauiXaml Include="Pages\Pagina10.xaml" />
+		<MauiXaml Include="Pages\TabbedPageT.xaml" />
 	</ItemGroup>
 
 </Project>

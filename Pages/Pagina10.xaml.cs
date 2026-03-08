@@ -1,3 +1,4 @@
+
 namespace MauiTutoriales.Pages;
 
 public partial class Pagina10 : ContentPage
@@ -6,4 +7,5 @@ public partial class Pagina10 : ContentPage
     {
         InitializeComponent();
     }
+
 }
