@@ -17,5 +17,12 @@
     <local:Pagina8/>
     <local:Pagina9/>
     <local:Pagina10/>
+    <local:Pagina11/>
+    <local:Pagina12/>
+    <local:Pagina13/>
+    <local:Image_Vista/>
+    <local:Caja_Vista/>
+    <local:Borde_Vista/>
+    <local:Frame_Vista/>
 
 </TabbedPage>

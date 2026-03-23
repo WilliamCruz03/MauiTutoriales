@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks Condition="'$(Configuration)' == 'Release'">net9.0-android35;net9.0-windows10.0.19041.0</TargetFrameworks>
-		<TargetFrameworks Condition="'$(Configuration)' == 'Debug'">net9.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFrameworks Condition="'$(Configuration)' == 'Debug'">net9.0-android;net9.0-windows10.0.19041.0</TargetFrameworks>
 		<RuntimeIdentifier Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">win-x64</RuntimeIdentifier>
 
 		<OutputType>Exe</OutputType>
@@ -57,20 +57,34 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<MauiXaml Include="Pages\FlyoutMenuPage.xaml" />
-		<MauiXaml Include="Pages\FlyoutPageT.xaml" />
-		<MauiXaml Include="Pages\Pagina1.xaml" />
-		<MauiXaml Include="Pages\Pagina2.xaml" />
-		<MauiXaml Include="Pages\Pagina3.xaml" />
-		<MauiXaml Include="Pages\Pagina4.xaml" />
-		<MauiXaml Include="Pages\Pagina5.xaml" />
-		<MauiXaml Include="Pages\Pagina6.xaml" />
-		<MauiXaml Include="Pages\Pagina7.xaml" />
-		<MauiXaml Include="Pages\Pagina8.xaml" />
-		<MauiXaml Include="Pages\Pagina9.xaml" />
-		<MauiXaml Include="Pages\Pagina10.xaml" />
-		<MauiXaml Include="Pages\TabbedPageT.xaml" />
+	  <Compile Update="Pages\Pagina12.xaml.cs">
+	    <DependentUpon>Pagina12.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\Borde_Vista.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Caja-Vista.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Frame-Vista.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Image-Vista.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Label-Etiqueta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Pagina13.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+
+
 
 </Project>
 

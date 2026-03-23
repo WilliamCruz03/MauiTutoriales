@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTutoriales.Pages.Pagina12"
+             Title="PAGINA11" IconImageSource="contacto.png">
+
+
+
+    <StackLayout>
+        <Label Text="Usuarios Administradores"
+              Margin="0,20,0,0"/>
+
+        <StackLayout BindableLayout.ItemsSource="{Binding Personas}"
+                     HorizontalOptions="Start"
+                      Margin="0,20,0,0">
+            <!--Cargamos una coleccion de datos al layout-->
+
+            <BindableLayout.EmptyView>
+                <!--Configuramos lo que se mostrara en caso de que la vista este vacia-->
+                <StackLayout>
+                    <Label Text="No Existen Usuarios Administradores"
+                           FontAttributes="Italic"
+                           TextColor="Red"/>
+                </StackLayout>
+            </BindableLayout.EmptyView>
+
+            <BindableLayout.ItemTemplate>
+                <!--Establecemos La plantilla de datos-->
+                <DataTemplate>
+
+                    <Border BackgroundColor="LightGray"
+                            WidthRequest="50">
+                        <Label Text="{Binding Nombre}"
+                           TextColor="Black"/>
+                    </Border>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </StackLayout>
+        <Button Text="Borrar Datos" 
+                Command="{Binding ComandoBorrar}" 
+                WidthRequest="200" 
+                HorizontalOptions="Start"
+                Margin="0,20,0,0"/>
+        <!--Creamos un comado que realizara la accion de borrar la vista para poder mostrar el mensaje que se activa en caso 
+                                        de que la vista no este-->
+
+    </StackLayout>
+
+</ContentPage>

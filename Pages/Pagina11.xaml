@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTutoriales.Pages.Pagina11"
+             Title="Diseño Cuadricula" IconImageSource="contacto.png">
+
+
+    <HorizontalStackLayout Margin="20"
+                           Spacing="6">
+
+        <Label Text="Colores Bandera de Colombia"/>
+        <VerticalStackLayout Spacing="6">
+            <Rectangle Fill="Yellow"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+            <Rectangle Fill="Blue"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+            <Rectangle Fill="Red"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+        </VerticalStackLayout>
+
+        <Label Text="Colores Bandera de España"/>
+        <VerticalStackLayout Spacing="6">
+            <Rectangle Fill="Red"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+            <Rectangle Fill="#EABE3F"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+            <Rectangle Fill="Red"
+                       WidthRequest="30"
+                       HeightRequest="30"/>
+        </VerticalStackLayout>
+
+    </HorizontalStackLayout>
+</ContentPage>
